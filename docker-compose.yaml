@@ -9,7 +9,7 @@ volumes:
   mysql:
   rabbitmq: # docker volume create rabbitmq
 services:
-  mongodb:
+  mongodb: #Usage docker compose up -d # docker compose down
     image: vigneshkattamudi/mongodb:v1
     container_name: mongodb
     volumes:
